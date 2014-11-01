@@ -7,6 +7,9 @@
 
 using namespace std;
 
+// A non-recursive function to reverse a string
+// The function reverses the string by using
+// swaping characters in the string using a for loop
 void reverseString(string &st)
 {
 	int i = 0;
@@ -19,8 +22,13 @@ void reverseString(string &st)
 	}
 }
 
+
+// A recursive function to reverse a string
+// The function takes a string by reference, and a counter
 void reverseRecursively(string &st, int i)
 {
+	// if the counter is halfway through the string
+	// return
 	if(i == st.length()/2) return;
 	if(i < st.length()/2){
 		char c = st[st.length() - 1 - i];
@@ -28,6 +36,9 @@ void reverseRecursively(string &st, int i)
 		st[i] = c;
 	}
 	i += 1;
+	// call the function recursively until
+	// the required condition is met or 
+	// all the characters in the string are swapped
 	reverseRecursively(st, i);
 }
 
