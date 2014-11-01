@@ -1,3 +1,3 @@
 DataStructure
 =============
-The repo contails some of the Data structures implemenation and examples.
+The repo contains some of the Data structures implemenations and examples.
