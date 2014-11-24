@@ -1,3 +1,5 @@
+// Author: Arun Rai
+// LinkedList.cpp - a simple linked list implementation
 
 #include <iostream>
 #include <string>
