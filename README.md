@@ -1,5 +1,5 @@
 DataStructure
 =============
-The repo contains some of the Data structure implemenations and examples.
-Last edited on Nov 24/2014 by core 88
+The repo contains some of the Data structure implemenations and examples in C++.
+\n More implementation will be added later. 
 
